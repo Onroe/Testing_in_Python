@@ -1,4 +1,4 @@
-# Testing_in_Python
+#                            Testing_in_Python
 
 # Automated Testing in Python  with Unit test
 
@@ -8,27 +8,29 @@
 
 ##  Execute test case 
 
-``python
+```python
 $  python test_sum.py
    Test passed
    Test passed
    
-``
+```
 
 ##  Execute test case using a test runner(unit test)
 
-``python
+```python
 
 $python test_sum_unittest.py
 
-``
+```
 
 
 ## Use nose to run multiple test cases inside a folder
 
+```python
 $ pip install nose2
 $ python -m nose2
 
+```
 
 ##   Create unit tests for functions in a project
 
@@ -38,5 +40,9 @@ $ python -m nose2
 ###  Create python file Testing_in_python/test.py  to run tests
 
 ###  Execute test
+
+```python
 $python -m unittest test
+
+```
 
