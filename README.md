@@ -19,7 +19,7 @@ $  python test_sum.py
 
 ```python
 
-$python test_sum_unittest.py
+$ python test_sum_unittest.py
 
 ```
 
@@ -42,7 +42,15 @@ $ python -m nose2
 ###  Execute test
 
 ```python
-$python -m unittest test
+$ python -m unittest test
 
 ```
+
+###  Execute multiple tests
+
+```python
+$  python -m unittest discover
+
+```
+
 
